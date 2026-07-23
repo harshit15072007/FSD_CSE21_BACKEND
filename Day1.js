@@ -1,8 +1,32 @@
-let a = 10;
-let b = 20;
-let sum = a + b;
-console.log("The sum of a and b is: " + sum);   
+  //function in js:block of code
+//syntax :
+//function fname(){
+//}
+//fname();
 
-function multiply(x, y) {
-    return x * y;
-}   
+// function add (num1, num2){
+//     console.log(num1+num2)
+// }
+// add(2,1);
+
+// function add(num1, num2){
+//     return num1 + num2;
+// }
+// add(3,2);
+
+//arrow function
+//variable in js:container to store data
+//var, let, const
+//syntax:()=>{}
+
+// const add=()=>{
+// }
+// add();
+//  const add=(num1,num2)=>{
+//     return num1 + num2; 
+// }
+//  console.log(add(2,1));
+//arguments:array like object
+function addNum(){
+    console.log(arguments);
+}
